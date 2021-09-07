@@ -1,5 +1,5 @@
-var assert = require('assert');
-var parallel = require('./index');
+const assert = require('assert');
+const parallel = require('./index');
 
 // Пример успешного выполнения операции
 parallel(
@@ -68,7 +68,7 @@ parallel(
 );
 
 // Вспомогательная функция для тестов
-var tests = 2;
+let tests = 2;
 function completeTest() {
     tests--;
     if (tests === 0) {
